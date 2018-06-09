@@ -1,0 +1,266 @@
+001-005   station ID
+007-031   name
+032       (blank)
+033-037   latitude degree/minutes
+038       (blank)
+039-044   longitude degree/minutes
+045       (blank)
+
+046-113   section 1, CLIMAT report
+        046       id for group 1, section 1
+        047-050   mean station pressure reduced to sea level (0.1 hPa)
+        051       blank
+        052       id for group 2, section 1
+        053-056   mean station pressure, corrected (0.1 hPa)
+        057       blank
+        058       id for group 3, section 1
+        059       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        060-062   mean air temperature (0.1 C)
+        063-065   standard deviation (0.1 K)
+        066       blank
+        067       id for group 4, section 1
+        068       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        069-071   mean maximum air temperature (0.1 C)
+        072       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        073-075   mean minimum air temperature (0.1 C)
+        076       blank
+        077       id for group 5, section 1
+        078-080   mean water vapor pressure (0.1 hPa)
+        081       blank
+        082       id for group 6, section 1
+        083-086   liquid precipitation amount (mm)
+        087       quintile, 0 less than any value in the last 30 years, ..., 6 greater than any value in the last 30 years
+        088-089   number of days measured >= 1 mm
+        090       blank
+        091       id for group 7, section 1
+        092-094   number of hours of sunshine (hours)
+        095-097   precent of normal
+        098       blank
+        099       id for group 8, section 1
+        100-101   number of days with missing pressure data
+        102-103   number of days with missing air temperature data
+        104       number of days with missing data for maximum air temperature
+        105       number of days with missing data for minimum air temperature
+        106       blank
+        107       id for group 9, section 1
+        108-109   number of days with missing data for water vapor
+        110-111   number of days with missing data for precipitation
+        112-113   number of days with missing data for sunshine duration
+114       blank
+
+115-184   section 2, CLIMAT report
+        115       id for group 0, section 2 (Normals)
+        116-117   start year
+        118-119   end year
+        120       blank
+        121       id for group 1, section 2 (Normals)
+        122-125   mean station pressure reduced to sea level (0.1 hPa)
+        126       blank
+        127       id for group 2, section 2 (Normals)
+        128-131   mean station pressure, corrected (0.1 hPa)
+        132       blank
+        133       id for group 3, section 2 (Normals)
+        134       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        135-137   Temperature (0,1 C)
+        138-140   Standarddeviation of of monthly mean temperature (0,1 C)
+        141       blank
+        142       id for group 4, section 2 (Normals)
+        143       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        144-146   mean monthly maximum temperature (0,1 C)
+        147       id for sign of temperature (0= zero or positiv, 1=negativ)
+        148-150   mean monthly minimum temperature (0,1 C)
+        151       blank
+        152       id for group 5, section 2 (Normals)
+        153-155   mean water vapour pressure (0,1 hPa)
+        156       blank
+        157       id for group 6, section 2 (Normals)
+        158-161   monthly precipitation amount (mm)
+        162-163   number of days with >= 1,0 mmm
+        164       blank
+        165       id for group 7, section 2 (Normals)
+        166-168   monthly sunshine duration (h)
+        169       blank
+        170       id for group 8, section 2 (Normals)
+        171-172   number of years with missing air pressure data
+        173-174   number of years with missing air temperature data
+        175-176   number of years with missing data for extreme temperatures
+        177       blank
+        178       id for group 9, section 2 (Normals)
+        179-180   number of years with missing water vapour data
+        181-182   number of years with missing precipitation data
+        183-184   number of years with missing sunshine data
+185       blank
+
+186-248   section 3, CLIMAT report
+        186       id for group 0, section 3
+        187-188   number of days with Tmax >= 25,0 C (summer days)
+        189-190   number of days with Tmax >= 30,0 C (hot days)
+        191       blank
+        192       id for group 1, section 3
+        193-194   number of days with Tmax >= 35,0 C
+        195-196   number of days with Tmax >= 40,0 C
+        197       blank
+        198       id for group 2, section 3
+        199-200   number of days with Tmin < 0 C (frost days)
+        201-202   number of days with Tmax < 0 C (ice days)
+        203       blank
+        204       id for group 3, section 3
+        205-206   number of days with precipitation amount >= 1,0 mm
+        207-208   number of days with precipitation amount >= 5,0 mm
+        209       blank
+        210       id for group 4, section 3
+        211-212   number of days with precipitation amount >= 10,0 mm
+        213-214   number of days with precipitation amount >= 50,0 mm
+        215       blank
+        216       id for group 5, section 3
+        217-218   number of days with precipitation amount >= 100,0 mm
+        219-220   number of days with precipitation amount >= 150,0 mm
+        221       blank
+        222       id for group 6, section 3
+        223-224   number of days with snow height >= 0 cm
+        225-226   number of days with snow height >= 1 cm
+        227       blank
+        228       id for group 7, section 3
+        229-230   number of days with snow height >= 10 cm
+        231-232   number of days with snow height >= 50 cm
+        233       blank
+        234       id for group 8, section 3
+        235-236   number of days with wind speed >= 9,5 m/s
+        237-238   number of days with wind speed >= 19,5 m/s
+        239-240   number of days with wind speed >= 29,5 m/s
+        241       blank
+        242       id for group 9, section 3
+        243-244   number of days with visibility < 50 m
+        245-246   number of days with visibility < 100 m
+        247-248   number of days with visibility < 1000 m
+249       blank
+
+250-309   section 4, CLIMAT report
+        250       id for group 0, section 4
+        251       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        252-254   highest daily mean air temperature (0,1 C)
+        255-256   day of the month, when observed
+        257       blank
+        258       id for group 1, section 4
+        259       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        260-262   lowest daily mean air temperature (0,1 C)
+        263-264   day of the month, when observed
+        265       blank
+        266       id for group 2, section 4
+        267       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        268-270   highest daily maximum air temperature (0,1 C)
+        271-272   day of the month, when observed
+        273       blank
+        274       id for group 3, section 4
+        275       id for sign of following temperature (0= zero or positiv, 1=negativ)
+        276-278   lowest daily minimum air temperature (0,1 C)
+        279-280   day of the month, when observed
+        281       blank
+        282       id for group 4, section 4
+        283-286   highest daily precipitation amount (0,1 mm)
+        287-288   day of the month, when observed
+        289       blank
+        290       id for group 5, section 4
+        291       id for unit of wind speed (0: wind speed in m/s estimated; 1: 0,1 m/s; 2: 0,1 kn; 3: wind speed in kn estimated; 4: wind speed from anemometer in kn)
+        292-294   maximum wind speed
+        295-296   day of the month, when observed
+        297       blank
+        298       id for group 6, section 4
+        299-300   number of days with thunder
+        301-302   number of days with hail
+        303       blank
+        304       id for group 7, section 4
+        305       description of type of temperature reading (1: max./min. thermometer; 2: automatic weather station; 3: thermograph)
+        306-307   time of measuring daily maximum temperature (UTC)
+        308-309   time of measuring daily minimum temperature (UTC)
+310       blank
+
+311-460   3rd block: flags set by software FORMCHECK = information on format error (fort.30, see below)
+        311-322   Reception date & time (YYYYMMDDhhmm UTC)
+        323       Flag for kind of data transmission, 1=GTS, 2=airmail, 3=generated from e-mail by DWD (introduced in July 2002 onwards)
+        324       Flag for kind of CLIMAT code, 0=not decodable, 1=new (FM71-XI), 2=old (FM71-VI, code before 1994)
+        325       Flag for the month and year indicator, 1=actual date, 2=missing or erroneous date
+        326-349   for section 1 to 4 of the new CLIMATE code (6 columns per section):, number of obligatory groups (2 columns), number of existing groups (2 columns), number of erroneous groups (2 columns), 326-331 =section1, 332-337 =section2, 338-343 =section3, 344-349 =section4
+        350-361   0
+        362       blank
+        363       0
+        364-400   Flags are set for every group of section 1 to 4 with the following meaning: 0 not existing , 1 existing, but incorrect , 2 existing and correct , 3 rectified by program , 5 manually corrected , 7 existing, but one character too long
+
+        364	    sec 1, gr 1, (364-372=section 1 of FM71-XI)
+        365	    sec 1, gr 2, (364-372=section 1 of FM71-XI)
+        366	    sec 1, gr 3, (364-372=section 1 of FM71-XI)
+        367	    sec 1, gr 4, (364-372=section 1 of FM71-XI)
+        368	    sec 1, gr 5, (364-372=section 1 of FM71-XI)
+        369	    sec 1, gr 6, (364-372=section 1 of FM71-XI)
+        370	    sec 1, gr 7, (364-372=section 1 of FM71-XI)
+        371	    sec 1, gr 8, (364-372=section 1 of FM71-XI)
+        372	    sec 1, gr 9, (364-372=section 1 of FM71-XI)
+
+        373	    sec 2, gr 0, (373-382=section 2 of FM71-XI)
+        374	    sec 2, gr 1, (373-382=section 2 of FM71-XI)
+        375	    sec 2, gr 2, (373-382=section 2 of FM71-XI)
+        376	    sec 2, gr 3, (373-382=section 2 of FM71-XI)
+        377	    sec 2, gr 4, (373-382=section 2 of FM71-XI)
+        378	    sec 2, gr 5, (373-382=section 2 of FM71-XI)
+        379	    sec 2, gr 6, (373-382=section 2 of FM71-XI)
+        380	    sec 2, gr 7, (373-382=section 2 of FM71-XI)
+        381	    sec 2, gr 8, (373-382=section 2 of FM71-XI)
+        382	    sec 2, gr 9, (373-382=section 2 of FM71-XI)
+
+        383     sec 3, gr 0, (383-392=section 3 of FM71-XI)
+        384	    sec 3, gr 1, (383-392=section 3 of FM71-XI)
+        385	    sec 3, gr 2, (383-392=section 3 of FM71-XI)
+        386	    sec 3, gr 3, (383-392=section 3 of FM71-XI)
+        387	    sec 3, gr 4, (383-392=section 3 of FM71-XI)
+        388	    sec 3, gr 5, (383-392=section 3 of FM71-XI)
+        389	    sec 3, gr 6, (383-392=section 3 of FM71-XI)
+        390	    sec 3, gr 7, (383-392=section 3 of FM71-XI)
+        391	    sec 3, gr 8, (383-392=section 3 of FM71-XI)
+        392	    sec 3, gr 9, (383-392=section 3 of FM71-XI)
+
+        393	    sec 4, gr 0, (393-400=section 4 of FM71-XI)
+        394	    sec 4, gr 1, (393-400=section 4 of FM71-XI)
+        395	    sec 4, gr 2, (393-400=section 4 of FM71-XI)
+        396	    sec 4, gr 3, (393-400=section 4 of FM71-XI)
+        397	    sec 4, gr 4, (393-400=section 4 of FM71-XI)
+        398	    sec 4, gr 5, (393-400=section 4 of FM71-XI)
+        399	    sec 4, gr 6, (393-400=section 4 of FM71-XI)
+        400	    sec 4, gr 7, (393-400=section 4 of FM71-XI)
+        401-422   0
+        423-425   blank
+
+        426       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, trash
+        427       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, code name CLIMAT between different station messages
+        428       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, month and year indicator between station messages
+        429       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, mark of end of the message (=) missing
+        430       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, mark of end of the message already behind each section
+        431       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, section identifyer 111 missing
+        432       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, section identifyer 111 at wrong position
+        433       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, section identifyer incorrect
+        434       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, the same section identifyer twice
+        435       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, wrong characters within a message
+        436       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, behind the station number groups of letters only
+        437       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, behind the station number some groups of letters
+        438       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, two groups not divided by a blank
+        439       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, section number and prefix of a group not seperated by a blank
+        440       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, a blank within a group
+        441       Flags for different, frequent errors, 0 not existing, 1 existing, 3 existing and rectified by program, station doesn't have a message but NIL
+        442       0
+        443-460   Header of the bulletin, which contained the message of the station
+
+461       (blank)
+
+462-476   QC result monthly mean temperature (?C) including original value, QC-flag and first guess
+        462-467   Monthly mean temperature from CLIMAT in C
+        468       (blank)
+        469       Flag, 0: value was not available (no report or unreadable value);, 1: value was not quality-controlled (either initial value or value could not be checked);, 2: value was accepted after automatic quality-control;, 3: value was flagged after automatic quality-control, but passed manual check;, 4: value was flagged after automatic quality-control and manually corrected;, 5: value was flagged after automatic quality-control and deleted after manual revision (value is trash and could not be corrected).
+        470       (blank)
+        471-476   First guess for correct monthly mean temperature in C
+
+477       (blank)
+478-492   QC result monthly precipitation amount (mm) including original value, QC-flag and first guess
+        478-483   Monthly precipitation amount from CLIMAT in mm
+        484       (blank)
+        485       Flag (as in col. 469)
+        486       (blank)
+        487-492   First guess for correct monthly precipitation amount in mm
