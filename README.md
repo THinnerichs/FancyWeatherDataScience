@@ -1,1 +1,1 @@
-# SomeWetherDataScience
+# SomeWeatherDataScience
