@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.29)  21 JUL 2018 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.29)  21 JUL 2018 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1209,24 +1209,77 @@ Overfull \vbox (5.35425pt too high) detected at line 47
 [4
 
  <./IndiaRiceQuantity.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 55.
+line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
 [5
+
+] <RiceYield.png, id=169, 1606.0pt x 963.6pt>
+File: RiceYield.png Graphic file (type png)
+ <use RiceYield.png>
+Package pdftex.def Info: RiceYield.png used on input line 63.
+(pdftex.def)             Requested size: 230.46739pt x 138.27014pt.
+ [6
+
+ <./RiceYield.png (PNG copy)>] <RiceCrops.jpeg, id=198, 1606.0pt x 1233.60875pt
+>
+File: RiceCrops.jpeg Graphic file (type jpg)
+
+<use RiceCrops.jpeg>
+Package pdftex.def Info: RiceCrops.jpeg used on input line 68.
+(pdftex.def)             Requested size: 307.28987pt x 236.02573pt.
+
+Overfull \vbox (46.1011pt too high) detected at line 68
+ []
+
+[7
+
+ <./RiceCrops.jpeg>] [8
+
+]
+<BangalorePrecipitation1mm.png, id=255, 462.528pt x 346.896pt>
+File: BangalorePrecipitation1mm.png Graphic file (type png)
+
+<use BangalorePrecipitation1mm.png>
+Package pdftex.def Info: BangalorePrecipitation1mm.png used on input line 101.
+(pdftex.def)             Requested size: 184.37344pt x 138.27954pt.
+
+Overfull \hbox (30.72852pt too wide) in paragraph at lines 101--101
+ [] 
+ []
+
+<CherrapunjiNumberOfDays1mm.png, id=256, 462.528pt x 346.896pt>
+File: CherrapunjiNumberOfDays1mm.png Graphic file (type png)
+
+<use CherrapunjiNumberOfDays1mm.png>
+Package pdftex.def Info: CherrapunjiNumberOfDays1mm.png used on input line 101.
+
+(pdftex.def)             Requested size: 184.37344pt x 138.27954pt.
+
+Overfull \hbox (30.72852pt too wide) in paragraph at lines 101--101
+ [] 
+ []
+
+[9
+
+ <./BangalorePrecipitation1mm.png> <./CherrapunjiNumberOfDays1mm.png>]
+[10
+
+] [11
 
 ]
 \tf@nav=\write6
@@ -1238,11 +1291,11 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1252,23 +1305,23 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 17716 strings out of 494893
- 334029 string characters out of 6178672
- 415525 words of memory out of 5000000
- 20590 multiletter control sequences out of 15000+600000
- 7840 words of font info for 29 fonts, out of 8000000 for 9000
+ 17768 strings out of 494893
+ 334831 string characters out of 6178672
+ 416632 words of memory out of 5000000
+ 20622 multiletter control sequences out of 15000+600000
+ 8648 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,15n,55p,778b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,55p,778b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (5 pages, 159063 bytes).
+Output written on presentation.pdf (11 pages, 1046293 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

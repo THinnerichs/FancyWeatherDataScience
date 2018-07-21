@@ -108,7 +108,7 @@ def main():
 
     for city in city_list:
         x = np.array([year+month/12.0 for year in years for month in months])
-        criteria_list = ["4.8-mean air temperature (0.1 C)", "6.13-number of days with precipitation amount >= 1,0 mm", "6.1-number of days with Tmax >= 25,0 C (summer days)", "5.25-monthly precipitation amount (mm)" , "4.22-quintile, 0 less than any value in the last 30 years, ..., 6 greater than any value in the last 30 years"]#
+        criteria_list = ["4.21-liquid precipitation amount (mm)"]#"4.8-mean air temperature (0.1 C)", "6.13-number of days with precipitation amount >= 1,0 mm", "6.1-number of days with Tmax >= 25,0 C (summer days)", "5.25-monthly precipitation amount (mm)" , "4.22-quintile, 0 less than any value in the last 30 years, ..., 6 greater than any value in the last 30 years"]#
         # , "6.2-number of days with Tmax >= 30,0 C (hot days)", "6.5-number of days with Tmax >= 35,0 C","6.6-number of days with Tmax >= 40,0 C"]
         #, , ]
         #, "4.23-number of days measured >= 1 mm", "4.13-mean maximum air temperature (0.1 C)",
